@@ -1,0 +1,11 @@
+
+.linkNome {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+.linkNome:hover {
+  color: var(--secondary-color); 
+  text-decoration: underline;
+}

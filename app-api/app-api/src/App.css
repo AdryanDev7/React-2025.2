@@ -1,0 +1,53 @@
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 2rem;
+ 
+}
+
+h1 {
+  text-align: center;
+  color: #DDD;
+  border-bottom: 2px solid #646cff;
+  padding-bottom: 10px;
+  margin-bottom: 2rem; 
+}
+
+h2 {
+   
+   margin-bottom: 10px;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem; 
+}
+
+.user-card {
+
+  background-color: #3a3a3a; 
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+}
+
+.user-card h2 {
+  font-size: 1.25rem;
+  color: #87CEFA; 
+  margin: 0 0 10px 0;
+}
+
+.user-card p {
+  font-size: 1rem;
+  color: #ccc; 
+  margin: 0;
+}

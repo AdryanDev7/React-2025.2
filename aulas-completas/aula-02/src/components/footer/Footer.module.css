@@ -1,0 +1,12 @@
+.footer {
+  background-color: #242424;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: auto; /* Isso "empurra" o rodapé para baixo */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
